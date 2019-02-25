@@ -24,8 +24,8 @@ for i in range(10):
 # -----------------------------------------------------------------------------
 
 import scraperwiki
-html = scraperwiki.scrape("https://www.euroweeklynews.com/")
-sausages = html
+james = scraperwiki.scrape("http://www.euroweeklynews.com/")
+sausages = james
 print sausages
 
 # -----------------------------------------------------------------------------
