@@ -28,6 +28,16 @@ james = scraperwiki.scrape("http://www.hs.fi/")
 sausages = james
 print sausages
 
+green = 4
+jane = green + 1
+print jane
+
+summer = [ jane, green]
+print summer
+
+print summer[0]
+
+
 # -----------------------------------------------------------------------------
 # In the next tutorial, you'll learn how to extract the useful parts
 # from the raw HTML page.
