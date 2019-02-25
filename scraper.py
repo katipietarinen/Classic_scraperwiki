@@ -24,7 +24,7 @@ for i in range(10):
 # -----------------------------------------------------------------------------
 
 import scraperwiki
-html = scraperwiki.scrape(https://www.euroweeklynews.com/2011/01/18/no-public-money-for-single-sex-schools/)
+html = scraperwiki.scrape("http://www.euroweeklynews.com/2011/01/18/no-public-money-for-single-sex-schools/")
 sausages = html
 print sausages
 
